@@ -1,0 +1,10 @@
+.student {
+  width: 90px;
+  height: 35px;
+  background: #eeeeee;
+  margin: 3px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

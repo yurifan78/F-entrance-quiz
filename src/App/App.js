@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.scss';
+import './App.css';
 import GroupHeader from '../Components/GroupHeader/GroupHeader';
 import Groups from '../Components/Groups/Groups';
 import StudentsList from '../Components/StudentsList/StudentsList';
@@ -24,7 +24,7 @@ function App() {
   ]);
 
   return (
-    <div data-testid="app" className="App">
+    <div data-testid="app" className="app">
       <GroupHeader />
       <Groups students={students} />
       <StudentsList students={students} setStudents={setStudents} />

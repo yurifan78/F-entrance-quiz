@@ -1,5 +1,6 @@
 import React from "react";
 import Student from "./Student";
+import './StudentsList.css';
 
 function StudentsList({students}) {
     return (
