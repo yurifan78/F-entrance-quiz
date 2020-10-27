@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div data-testid="app" className="app">
-      <GroupHeader />
+      <GroupHeader students={students} setStudents={setStudents} />
       <Groups students={students} />
       <StudentsList students={students} setStudents={setStudents} />
     </div>
