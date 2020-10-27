@@ -2,10 +2,13 @@ import React from "react";
 import './GroupingButton.css';
 
 function GroupingButton() {
+    const groupingStudentsHandler = () => {
+
+    }
 
     return (
         <div>
-            <button type="submit" className="grouping-button">分组学员</button>
+            <button onClick={groupingStudentsHandler} type="submit" className="grouping-button">分组学员</button>
         </div>
     );
 }
