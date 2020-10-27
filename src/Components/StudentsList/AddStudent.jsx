@@ -1,10 +1,9 @@
 import React from "react";
 
-function GroupHeader() {
-
+function AddStudent() {
     return (
         <div>hello world</div>
     );
 }
 
-export default GroupHeader;
+export default AddStudent;

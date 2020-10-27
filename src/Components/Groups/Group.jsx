@@ -1,9 +1,10 @@
 import React from "react";
 
 function Group() {
-
     return (
-        <div>hello world</div>
+        <div>
+            hello world
+        </div>
     );
 }
 
