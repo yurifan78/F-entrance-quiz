@@ -5,6 +5,11 @@ function Groups({ students }) {
     return (
         <div className="groups">
             <Group students={students}/>
+            <Group students={students}/>
+            <Group students={students}/>
+            <Group students={students}/>
+            <Group students={students}/>
+            <Group students={students}/>
         </div>
     );
 }

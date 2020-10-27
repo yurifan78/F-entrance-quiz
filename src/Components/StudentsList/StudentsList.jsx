@@ -5,9 +5,12 @@ import './StudentsList.css';
 function StudentsList({students}) {
     return (
         <div className="students-list">
-            {students.map(student => (
-                <Student student={student}/>
-            ))}
+            <div className="students-list-title">学员列表</div>
+            <div className="students-list-names">
+                {students.map(student => (
+                    <Student student={student}/>
+                ))}
+            </div>
         </div>
     );
 }
