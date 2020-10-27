@@ -2,7 +2,7 @@ import React from "react";
 
 function AddStudent() {
     return (
-        <div>hello world</div>
+        <div>{}</div>
     );
 }
 

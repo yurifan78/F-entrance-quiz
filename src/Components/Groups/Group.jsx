@@ -2,9 +2,7 @@ import React from "react";
 
 function Group() {
     return (
-        <div>
-            hello world
-        </div>
+        <div className="group">{}</div>
     );
 }
 
