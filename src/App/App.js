@@ -25,7 +25,9 @@ function App() {
 
   return (
     <div data-testid="app" className="app">
+      {/* // TODO GTB-工程实践: - GroupHeader这个组件有点粒度太小了，可以不用抽。就把它作为Groups这个组件的一部分 */}
       <GroupHeader students={students} setStudents={setStudents} />
+      {/* // TODO GTB-知识点: - 数据结构设计错误。Groups这个组件接收的应该是分组之后每个组的数据，而只是students */}
       <Groups students={students} />
       <StudentsList students={students} setStudents={setStudents} />
     </div>
